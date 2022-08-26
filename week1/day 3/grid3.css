@@ -1,0 +1,55 @@
+#main{
+	background:white;
+	height: 300px;
+	width: 600px;
+	display: grid;
+	grid-gap: 7px;
+	text-align: center;
+	border: solid;
+	grid-template-areas: 
+
+	"a a a"
+	"b c d"
+	"b e e"
+	"f f g"
+	"h h h"
+
+}
+#un{
+	background-color: indigo;
+	grid-area: a;
+}
+
+#deux{
+	background-color: blue;
+	grid-area: b;
+}
+
+#trois{
+	background-color: orange;
+	grid-area: c;
+}
+
+#quatre{
+	background-color: red;
+	grid-area: d;
+}
+
+#cinq{
+	background-color: indigo;
+	grid-area: e;
+}
+
+#six{
+	background-color: skyblue;
+	grid-area: f;
+}
+
+#sept{
+	background-color: cyan;
+	grid-area: g;
+}
+
+#huit{
+	background-color: magenta;
+	grid-area:h;

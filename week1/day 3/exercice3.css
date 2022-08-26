@@ -1,0 +1,58 @@
+body{
+	margin: 0px;
+	height: 100vh;
+	width: 100%;
+	background-image:linea-gradien( to bottom )
+}
+
+#container{
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	height: 300px;
+	width: 400px;
+}
+
+#minidiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	justify-content: space-around;
+
+	background-color:white ;
+	height:250px ;
+	width:300px ;
+	border:5px solid red ;
+	align-self:center ;
+
+}
+ #minidiv1
+ {
+ 	background-color:lightblue ;
+ 	height: 40px;
+ 	width:200px ;
+ 	align-self: center;
+ }
+
+#minidiv2
+ {
+ 	background-color:lightblue ;
+ 	height: 40px;
+ 	width:280px ;
+ 	align-self: center;
+ 	justify-content: space-around;
+ 	justify-content: space-between;
+ 	
+
+
+ }
+ 
+ 
+ #minidiv3
+ {
+ 	background-color:lightblue ;
+ 	height: 40px;
+ 	width:200px ;
+ 	align-self: center;
+ }
+ 

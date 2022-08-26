@@ -1,0 +1,7 @@
+body{
+
+    height: 100vh;
+	margin: 0px;
+	width: 600px;
+	background-image: linear-gradient(to right,darkmagenta,white,darkorchid,#B0CC99);
+}
